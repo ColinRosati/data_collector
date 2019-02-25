@@ -2,7 +2,7 @@
 
 This application is a small Web Server Application that uses a Raspberry Pi as accesspoint. This server is connected to FTI devices to collect data. A client is able to connect to the server via a browser and remotely control, collect, download and send FTI device data via email. This SPA (single page application) has both the frontend and backend node.js and Javascript files that generate and modify the HTML.
 
-![alt text](https://github.com/ColinRosati1/data_collecotr/img/scopecollector1.jpg "Logo Title Text 1")
+![alt text](https://github.com/ColinRosati1/data_collector/blob/master/img/scopecollector1.jpg )
 
 
 The server is run from the Node.js on the Raspberry Pi.
