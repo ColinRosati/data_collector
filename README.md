@@ -40,3 +40,8 @@ The app is a web app that communicates to FTI boards. It can trigger streaming s
 The client can read the index files on the web browser, download the file from the browser or email the compressed data. 
 
 Here is a [tutorial](https://medium.com/@colin.james.rosati/node-command-line-tool-and-client-server-application-966e49691c57) for earlier version that ellaborates on the node.js program. 
+
+
+### Author
+---
++ **Colin Rosati** | Forstress Technology
