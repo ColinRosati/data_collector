@@ -1,0 +1,26 @@
+[
+{
+  "Time":"Wed Feb 06 2019 14:47:08 GMT-0500 (Eastern Standard Time)",
+  "size of ./scope_data/scopedata.txt": "0 ",
+  "Customer": "",
+  "Detector Serial": "",
+  "Detector Size": "",
+  "Message": "", 
+  "amount of lines before collecting": "1",
+  "amount of lines added": "0",
+ "total lines": "1",
+  "run time": "00:00:24"
+}
+,{
+  "Time":"Wed Feb 06 2019 14:47:59 GMT-0500 (Eastern Standard Time)",
+  "size of ./scope_data/scopedata.txt": "281589 ",
+  "Customer": "",
+  "Detector Serial": "",
+  "Detector Size": "",
+  "Message": "", 
+  "amount of lines before collecting": "1",
+  "amount of lines added": "5312",
+ "total lines": "5313",
+  "run time": "00:00:24"
+}
+]

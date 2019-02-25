@@ -1,0 +1,24 @@
+Making a systemd service file to book node scope web app
+
+sudo nano /lib/systemd/system/fti_scope_server.service
+
+[Unit]
+Description=server.js - fti_scope_server launches webapp on port 8001
+Documentation=192.168.1.96:8001
+After=network.target
+
+[Service]
+Environment=NODE_PORT=8001
+Type=simple
+User=pi
+ExecStart=/usr/bin/node /home/pi/Documents/Dev/data_collector_access_point/vanillaJs/server.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+ sudo systemctl start fti_scope_server
+ sudo systemctl stop fti_scope_server
+ sudo systemctl status fti_scope_server

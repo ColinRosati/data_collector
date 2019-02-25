@@ -1,0 +1,288 @@
+body{
+	color:black;
+	/*background-color: #e6eaff;*/
+	position:relative;
+  line-height: 1.7em;
+  color: #7f8c8d;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+  font-family:"Verdana", Geneva, sans-serif;
+}
+
+h2{
+	/*background-color: black;*/
+	/*height:10%;*/
+	/*padding:1%;*/
+	/*top:0px;*/
+	text-align: center;
+	color:black;
+	font-family:"Verdana", Geneva, sans-serif;
+}
+
+ul {
+  list-style-type:none;
+}
+
+#user_form{
+  max-width: 50%;
+}
+
+#bg-colour{
+	background-color:#d1d5ec;
+}
+
+
+#submit{
+	/*text-align: left;*/
+}
+
+.btn-toolbar{
+	padding: 1%;
+}
+.form-group{
+	margin-left: 5%;
+  width: 40%; 
+}
+.form-email{
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+.pure-g {
+    text-rendering: optimizespeed;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+
+.pure-form label {
+    margin: 1em 0 0;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.pure-form input[type] {
+    border: 2px solid #ddd;
+    box-shadow: none;
+    font-size: 100%;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.pure-u-md-3-5{
+  margin-left: 2%;
+}
+
+.scaleable-wrapper {
+  padding: 20px;
+  resize: both;
+  position: relative;
+  height: 400px;
+}
+
+.container-head{
+   text-align:center;
+}
+
+.scope-container{
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left:10%;
+  padding-right:10%;
+  margin-left:10%;
+  margin-right:10%;
+  background-color:#d1d5ec;
+  width:50%;
+}
+
+.scope-container1{
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left:5%;
+  padding-right:5%;
+  margin-left:0%;
+  margin-right:0%;
+  background-color:#d1c8e1;
+  width:90%;
+}
+
+.table {
+  text-align: center;
+}
+
+#scope{
+  position:block;
+  bottom:0px;
+  padding: 6px 40px;
+  width:100%;
+}
+#stop_button{
+  position:block;
+  bottom:0px;
+  padding: 6px 40px;
+  width:100%;
+  border: 2px solid black;
+}
+
+#stop_button:hover {
+    background-color:red;
+    color: white;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.24), 2px 2px 2px 0 rgba(0,0,0,0.19);
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    padding: 6px 22px;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.24), 2px 2px 2px 0 rgba(0,0,0,0.19);
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    padding: 1px 12px;
+    border-radius: 5px;
+}
+
+.button3:hover {
+    background-color: #008CBA;
+    color: white;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.24), 2px 2px 2px 0 rgba(0,0,0,0.19);
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 3px solid #e7e7e7;
+}
+
+.button4:hover {
+  background-color: #e7e7e7;
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.24), 2px 2px 2px 0 rgba(0,0,0,0.19);
+}
+
+.pure-button {
+    background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+.content-wrapper {
+    /* These styles are required for the "scroll-over" effect */
+    position: absolute;
+    top: 87%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
+
+}
+
+/* We want to give the content area some more padding */
+.content {
+    padding: 1em 1em 3em;
+}
+
+.content2 {
+   background: #d1c8e1;
+   padding-top:2%;
+   padding-bottom:30%;
+  overflow: scroll;
+}
+
+
+/* This is the class used for the main  headers (<h2>) */
+.content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    /*margin: 2em 0 1em;*/
+}
+
+/* This is a modifier class used when the content-head is inside a ribbon */
+.content-head-ribbon {
+    color: white;
+}
+
+/* This is the class used for the content sub-headers (<h3>) */
+.content-subhead {
+    color: #1f8dd6;
+}
+  .content-subhead i {
+      margin-right: 7px;
+  }
+
+fieldset {
+  border-style: none;
+}
+
+footer {
+/*	position: fixed;
+    left: 0;
+    bottom: -10px;
+    width: 100%;*/
+      text-align: center;
+      background: #111;
+    position: fixed;
+    bottom: 0;
+    width: 100%;  
+}
+
+.ribbon {
+   background: #aaa;
+}
+
+.card-footer{
+  bottom:0;
+  padding-top:0px;
+  /*height: 1%;*/
+}
+
+
+
+.myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #472f78;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+

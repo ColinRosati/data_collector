@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <title>FTI Scope Collector</title>
+	  <meta name="description" content="">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<!-- <body> -->
+	<body >
+
+		<!-- HEADER  -->
+		<header class="masthead text-white text-center" id="bg-colour">
+	      <div class="container-head" class="scaleable-wrapper" id="scaleable-wrapper">
+	        <h2 class="text-uppercase mb-0">FTI Scope Collector</h4>
+	        <hr>
+		          <a><button type="button" class="button button4" id="bt_index" >Get index data</button></a>
+		          <a><button type="button" class="button button4" id="download">Download Data</button></a>
+		          <a><button type="button" class="button button4" id="email_data">Email Data</button></br></a>
+		          <a><button type="button" class="button button4" id="reset">Reset Data</button></a>
+		          <a><button type="button" class="button button4" id="close_scope">Close Scope</button></br></a>
+		        <h6 >collecting scope data for FTI devices</h6>
+	      </div>
+	    </header>
+		
+		<!-- BODY  -->
+		<!-- <div class="container" > -->
+		<div class="content" class="scaleable-wrapper" id="scaleable-wrapper">
+			<div class="detectorList">
+				<button class="button button3" id="locate">Locate</button>
+				<select id="selectDSP"><option value="none">Select DSP</option></select>
+			</div>
+			<div class="manSel"><input type="text" id="ip_input" value=""><button class="button button3" id="ip_connect">Connect</button></div>
+
+			<h2 class="content-head is-center">Scope session info</h2>
+			
+			<div class="pure-g">
+		  <!-- Form -->
+			  
+			  	<div class="l-box-lrg pure-u-1 pure-u-md-2-5" id="user_form">
+				    <form class="pure-form pure-form-stacked" class="form-inline" id="formD" enctype=”multipart/form-data”>
+					   	<fieldset>
+					   	  <label class="label" for="customer"> Customer </label>
+					      <input  type="text" id="customer" class="form-control"  placeholder="Enter customer info">
+
+					      <label class="label" for="serial"> Detector Serial Number </label>
+					      <input  type="text" id="detect_serial" class="form-control"  placeholder="Enter Detector Serial Number"> 
+
+					      <label class="label" for="product"> Detector Size </label>
+					      <input  type="text" id="detect_size" class="form-control"  placeholder="Enter Detector Size"> 
+
+					      <label class="label" for="product"> Product Info </label>
+					      <input  type="text" id="info" class="form-control"  placeholder="Enter product info"> 
+
+					      <label class="label" for="time"> Session Time </label>
+					      <input type="text" Id="time"  class="form-control"  placeholder="Enter Time in seconds">
+					      
+					      <button class="button button2" id="submit" type="button" value="Submit">Submit</button>
+					    </fieldset>
+				    </form>
+					</br>
+				</div>
+			    <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+			    	<p>Input time and product information for user session</p>
+			    	<p>Once done press "Stream Scope Data" button </p>
+				</div>
+	        </div>
+			    <div id="divscope">
+					<button type="button" class="button button2" id="scope" >Stream Scope Data</button>
+				</div>
+				</div>
+			    <div class="content2" class="ribbon">
+					<ul class="list-group ">		 
+				  		<li class="list-group-item list-group-item-light"><div id="state" class="text-center"></div></li></br>
+				  		<li class="list-group-item list-group-item-light "><div id="index" class="table"></div></li>
+					</ul>
+				</div>
+			    </div>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			  <p>FTI</p>
+		</footer>
+
+		<script type="text/javascript" src="client.js"></script>
+	</body>
+</html>
+
