@@ -1,4 +1,4 @@
-Making a systemd service file to book node scope web app
+Making a systemd service file to boot node scope web app
 
 sudo nano /lib/systemd/system/fti_scope_server.service
 
