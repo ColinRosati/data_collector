@@ -5,3 +5,5 @@ fti/**
 fti_scope_collector_multi_indexing_incompelete.js
 fti_scan.js
 Data.zip
+node.log
+systemd-service-file-instruction.txt
