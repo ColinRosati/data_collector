@@ -1,17 +1,30 @@
 # data_collector
 
-Web Server Application that uses a Raspberry Pi as accesspoint Server.
+This application is a small Web Server Application that uses a Raspberry Pi as accesspoint. This server is connected to FTI devices to collect data. A client is able to connect to the server via a browser and remotely control, collect, download and send FTI device data via email. This SPA (single page application) has both the frontend and backend node.js and Javascript files that generate and modify the HTML.
 
-The server is run from the Raspberry Pi terminal from the Node Server.js file
+![alt text](https://github.com/ColinRosati1/data_collecotr/img/scopecollector1.jpg "Logo Title Text 1")
+
+
+The server is run from the Node.js on the Raspberry Pi.
 
 ## Getting Started
 
-### ACCESS Point
-To allow connect to this application you have the Raspberry Pi and client on the same Wifi network or setup the RPI to run as an access point. To do this run you can run this [rpi-access-point.sh](https://github.com/ColinRosati1/rpi-access-point) shell script. 
+### Prerequisites
+For this application you will need:
+```
+Raspberry Pi (I have been developing with RPI3 raspbian STRETCH)
+Node.js
+Additional Device with browser
+```
+Clone the github repo!
+`git clone https://github.com/ColinRosati1/data_collector.git`
+
+#### Access Point
+To connect to this application you have two options. The first is done with the Raspberry Pi and client on the same Wifi network. The second option is to setup the RPI to run as an access point. To do this run you can run this [rpi-access-point.sh](https://github.com/ColinRosati1/rpi-access-point) shell script. This script has only been tested on raspbian stretch.
 
 ### Server
 
-On the Raspberry Pi run the `server.js` file and or allow RPI to run it on boot. 
+On the Raspberry Pi run the `server.js` file and or allow RPI to run it on boot. To run on boot use the scope_server.sh file.
 
 `$node server.js`
 
